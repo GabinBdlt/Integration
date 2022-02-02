@@ -1,0 +1,466 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4{ 
+    line-height: 1.2;
+    margin: 0;
+}
+p{
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    color: #7a7a7a;
+}
+/*premiere partie*/
+.first-paragraph{
+    text-align: center;
+    font-family: "Raleway";
+}
+.first-paragraph{
+    padding-right: 35%;
+    padding-top: 10em;
+    padding-bottom: 15em;
+    background: #8a8a8a;
+    background-repeat: no-repeat;
+}
+.first-paragraph h1, 
+.first-paragraph h3, 
+.first-paragraph h4{
+    color: #383838;
+}
+.first-paragraph h1{
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.first-paragraph>h3{
+    font-size: 15px;
+    display: inline-block;
+    padding: 2px;
+    background: #333333;
+    border-radius: 2px;
+    color: #fff;
+}
+.S{
+    color: rgba(0, 169, 157, 1); 
+}
+.Nextgen{
+    text-transform: uppercase;
+}
+.start-doing-that{
+    text-align: center;
+}
+
+.start-doing-that h3{
+    font-size: 30px;
+    font-weight: 700px;
+    margin: 20px 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.start{
+    color: rgba(0, 169, 157, 1);
+}
+/*deuxieme partie*/
+.Menu {
+    background: #f9f9f9;
+    border-bottom: 1px solid #dedede;
+    padding: 15px 0;
+}
+.MenuA img{
+    padding-left: 250px;
+}
+.MenuA nav {
+    margin: -31px;
+    text-align:right;
+    padding-bottom: 13px ;
+    padding-right: 263px;
+}
+.MenuA nav a{
+    display: inline-block;
+    color: #606060;
+    margin: 0 15px;
+    font-size: 13px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.MenuA nav ul li a{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.MenuA nav li {
+	display: inline;
+	list-style: none;
+}
+/*ne fonctionne pas*/
+.MenuA nav a:hover{
+    background-color:rgb(0, 169, 157) ;
+    color: #e4e4e4;
+    display: inline-block;
+    border-radius: 9px;
+    /* padding: 6px 8px; */
+}
+/*fonctionne de nouveau*/
+.MenuA nav a:hover{
+    color: #e4e4e4;
+    background: rgb(0, 169, 157);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 6px 8px;
+}
+.loupe img{
+    display: flex;
+	flex-direction: row;
+    margin-left: 1100px;
+    width: 20px;
+    height: 20px;
+}
+/*Troisieme partie*/
+.ofr{
+    padding-bottom: 100px;
+}
+.ofr header{
+    text-align: center;
+}
+.ofr h1{
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #383838;
+    padding-top: 60px;
+}
+.offer{
+    color: rgb(0, 169, 157);
+}
+.ofr h1::before{
+    content: url("Images/formegauche.png");
+    margin-right: 7px;
+}
+.ofr h1:after{
+    content: url("Images/formedroite.png");
+    margin-left: 7px;
+}
+.ofr header p{
+    font-family: "Raleway";
+    font-weight: regular;
+    font-size: 16px;
+    color: #8a8a8a;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.ofr div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.ofr div article{
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 40px 20px;
+    text-align: center;
+    padding: 10px;
+}
+.ofr div article h2{
+    color: #606060;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    padding : 10px;
+}
+.ofr div article p{
+    color: #606060;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    padding-bottom: 20px; 
+}
+.ofr div article span h3 {
+    color: #e4e4e4;
+    background-color: rgb(0, 169, 157);
+    border: initial;
+}
+.ofr div article h3{
+    color: #8a8a8a;
+    font-size: 10px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+
+/*Quatrieme partie*/
+
+.clebleue{
+    margin-left: 730px;
+}
+
+.features{
+    /*background: url(ImageS/ecran.png), cover;
+    height: 494px;*/
+    /* background-image: url(images/mockup2.png); */
+    background: #383838;
+    height: 605px;
+    background-size: cover 
+}
+.features header{
+    text-align: center;
+}
+.features h1:before{
+    content: url("Images/formegauche.png");
+    margin-right: 7px;
+}
+.features h1:after{
+    content: url("Images/formedroite.png");
+}
+.features header h1{
+    color: #e4e4e4;
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.features header p{
+    color: #606060;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+.features div{
+    padding-left: 60px;
+    padding-left: 180px;
+    padding-top: 10px;
+}
+.features div article{
+    margin-bottom: 10px;
+}
+.features div article h2{
+    color: #e4e4e4;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+}
+.features div article img{
+    float: left;
+    padding-top: 46px;
+}
+.features div article p{
+    color: #7a7a7a;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: normal;
+    padding-left: 70px;
+}
+/*Cinquieme partie*/
+
+.blocktext{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 52px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blocktext h2{
+    color: #606060;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.blocktext h3{
+    color: #aaaaaa;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+.blocktext p{
+    color: #7a7a7a;
+    font-weight: normal;
+    font-style: "Raleway";
+    font-size: 14px;
+    padding-left: 60px;
+    line-height: 20px;
+}
+.blocktext article{
+    margin-left: 60px;
+}
+.blocktext img{
+    float: left;
+    padding-right: 20px;
+}
+/*Sixieme partie*/
+.valisebleue{
+    margin-left: 730px;
+}
+.pourcentages{
+    background: #383838;
+    height: 450px;
+}
+.pourcentages h1{
+    color: #e4e4e4;
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: bold;
+    padding-top: 72px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pourcentages h1:before{
+    content: url("Images/formegauche.png");
+    margin-right: 7px;
+}
+.pourcentages h1:after{
+    content: url("Images/formedroite.png");
+    margin-left: 7px;
+}
+.SKILLS{
+    color: rgb(0, 169, 157);
+}
+.pourcentages header p{
+    color: #606060;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+.stats{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+}
+.stats img{
+    position: absolute;
+    margin-left: 58px;
+}
+
+.stat1 h2,
+.stat2 h2,
+.stat3 h2,
+.stat5 h2,
+.stat6 h2{
+    color: #e4e4e4;
+    position: absolute;
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.stat4 h2{
+    color: #e4e4e4;
+    position: absolute;
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#pourcent{
+    font-size: 18px;
+}
+.stats h3{
+    color: #e4e4e4;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    margin-top: 150px;
+    text-align: center;
+}
+
+/*Septieme partie*/
+ .sampleworks h1{
+    color: #383838;
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+.works{
+    color: rgb(0, 169, 157);
+}
+.sampleworks h1:before{
+    content: url("Images/formegauche.png");
+    margin-right: 7px;
+}
+.sampleworks h1:after{
+    content: url("Images/formedroite.png");
+    margin-left: 7px;
+}
+.sampleworks{
+    color: #606060;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+.carrousel{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 2px;
+    margin: 2px;
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px; */
+}
+.carrousel img{
+    width: 245px;
+	height: 195px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.view{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.view h2{
+    color: #e4e4e4 ;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(0, 169, 157);
+    border-radius: 5px;
+    padding: 10px 375px;
+    display: inline-block;
+}
